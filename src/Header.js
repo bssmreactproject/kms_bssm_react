@@ -6,6 +6,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import Avatar from "@mui/material/Avatar";
 
 function Header() {
     return (
@@ -30,6 +31,7 @@ function Header() {
                 <IconButton>
                     <NotificationsIcon/>
                 </IconButton>
+                <Avatar />
             </div>
         </div>
     );
