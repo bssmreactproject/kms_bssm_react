@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kms_bssm_react/static/css/main.3138ea4c.css",
+    "main.js": "/kms_bssm_react/static/js/main.fd0d972f.js",
+    "static/js/787.402852f4.chunk.js": "/kms_bssm_react/static/js/787.402852f4.chunk.js",
+    "index.html": "/kms_bssm_react/index.html",
+    "main.3138ea4c.css.map": "/kms_bssm_react/static/css/main.3138ea4c.css.map",
+    "main.fd0d972f.js.map": "/kms_bssm_react/static/js/main.fd0d972f.js.map",
+    "787.402852f4.chunk.js.map": "/kms_bssm_react/static/js/787.402852f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3138ea4c.css",
+    "static/js/main.fd0d972f.js"
+  ]
+}
