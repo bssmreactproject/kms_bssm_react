@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
+import Mail from './Mail';
+import EmailList from './EmailList';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,15 +17,13 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+
         <div className="app_body">
           <Sidebar />
+
           <Routes>
-            <Route path="/mail">
-              <Mail />
-            </Route>
-            <Route path="/">
-              <EmailList />
-            </Route>
+            <Route path="/mail" element={<Mail />}/>
+            <Route path="/" element={<EmailList />}/>
           </Routes>
         </div>
       </div>
