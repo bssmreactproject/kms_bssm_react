@@ -27,8 +27,8 @@ function App() {
           <Sidebar />
 
           <Routes>
-            <Route path="/mail" element={<Mail />}/>
-            <Route path="/" element={<EmailList />}/>
+            <Route path="/kms_bssm_react/mail" element={<Mail />}/>
+            <Route path="/kms_bssm_react/" element={<EmailList />}/>
           </Routes>
         </div>
         {sendMessageIsOpen&&<SendMail />}

@@ -18,7 +18,7 @@ import { useNavigate } from 'react-router-dom';
 function Mail(){
     const navigate = useNavigate();
     const goToMain = () => {
-        navigate("/");
+        navigate("/kms_bssm_react/");
       };
 
     return (

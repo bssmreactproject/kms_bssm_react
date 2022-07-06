@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 function EmailRow({id, title, subject, description, time}){
     const navigate = useNavigate();
     const goToMail = () => {
-        navigate("/mail");
+        navigate("/kms_bssm_react/mail");
       };
 
     return(
